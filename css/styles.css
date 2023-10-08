@@ -13,14 +13,10 @@
   color: white;
   position: absolute;
   top: 50%;
-  border: none;
-  border-radius: 50px;
   padding: 10px;
 }
 
-/*
-.button:hover {
-  background-color: #766a80;
-  transition: 0.3s ease;
+.button1:hover {
+  background-color: #5f5866;
+  transition: 0.3s;
 }
-*/

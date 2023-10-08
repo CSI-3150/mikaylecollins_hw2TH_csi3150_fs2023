@@ -41,6 +41,10 @@ li {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.logo:hover {
+  transition: width 2s, height 2s, transform 3s;
+}
+
 /*psuedo class*/
 .menu {
   display: flex;
