@@ -28,3 +28,12 @@
   top: 20%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.logotext {
+  text-align: left;
+}
+
+.logophoto {
+  display: flex;
+  text-align: left;
+}
