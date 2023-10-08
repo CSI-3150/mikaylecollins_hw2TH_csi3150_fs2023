@@ -14,9 +14,17 @@
   position: absolute;
   top: 50%;
   padding: 10px;
+  margin-left: 10px;
 }
 
 .button1:hover {
-  background-color: #5f5866;
-  transition: 0.3s;
+  background-color: #433c4a;
+  transition: 0.5s;
+}
+
+.introduction {
+  position: absolute;
+  display: flex;
+  top: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
