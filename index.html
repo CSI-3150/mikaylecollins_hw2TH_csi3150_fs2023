@@ -7,16 +7,42 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <!-- Used a link for the favi icon-->
     <!-- Link an esxternal CSS file -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
   </head>
   <body>
     <!--Created a navigation bar to be able to move pages-->
     <header id="page_header">
-      <h1>Mikayle Collins Portfolio</h1>
-      <nav id="navbar">
-        <a href="index.html" class="navOptions"> Home</a>
-        <a href="html/my_resume.html" class="navOptions"> Resume </a>
-        <a href="html/my_fun_facts.html" class="navOptions"> Fun Facts </a>
+      
+      <nav class="navbar">
+
+        <!--LOGO Containter-->
+        <div class = "logo">Mikayle Collins Portfolio</div>
+
+        <!--Navigation menu container-->
+       <ul class="nav-links">
+
+          <!--HAMBURGER with checkbox-->
+          <input type="checkbox" id="checkbox_clicker"/>
+          <label for="checkbox_clicker" class="hamburger">&#9776</label>
+
+          <!--Navigation Options-->
+          <div class="menu">
+            <li><a href="index.html" class="navOptions"> Home</a></li>
+            <li><a href="html/my_resume.html" class="navOptions"> Resume </a></li>
+
+            <li class="options"><a href="html/my_fun_facts.html" class="navOptions"> Fun Facts </a>
+                  <!--Drop Down Options-->
+                  <ul class="dropdown">
+                  <li><a href="/" > Button</a></li>
+                  <li><a href="/" > Button! </a></li>
+                  </ul>
+            </li>
+              
+            
+          </div>
+       </ul>
+        
+    
       </nav>
     </header>
     <br />
