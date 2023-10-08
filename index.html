@@ -8,6 +8,7 @@
     <!-- Used a link for the favi icon-->
     <!-- Link an esxternal CSS file -->
     <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Created a navigation bar to be able to move pages-->
@@ -33,7 +34,7 @@
             <li class="options"><a href="html/my_fun_facts.html" class="navOptions"> Fun Facts </a>
                   <!--Drop Down Options-->
                   <ul class="dropdown">
-                  <li><a href="/" > Button</a></li>
+                  <li><a href="/" > Button!</a></li>
                   <li><a href="/" > Button! </a></li>
                   </ul>
             </li>
@@ -47,56 +48,77 @@
     </header>
     <br />
     <br />
+    
     <div>
+      <!--IMAGE-->
+      <div>
       <img
         src="images/Collins_3.jpg"
         alt="Picture of Mikayle Collins"
         style="width: 300px; height: 400px"
+        class = "photo"
       />
-      <!--Used the block quote to get an indented version - without any styling-->
-      <blockquote>
-        <h3>"Be brave enough to suck at something new." - Anonymous</h3>
-      </blockquote>
+      </div>
+
+      <div>
+        <!--BUTTON-->
+        <button type = "button" class= "button1">Press it!</button>
+      </div>
+
+      <div>
+        <!--Used the block quote to get an indented version - without any styling-->
+        <blockquote class = "quote">
+          <h3>"Be brave enough to suck at something new." - Anonymous</h3>
+        </blockquote>
+      </div>
+
+      <br/>
+
+      <!--I made sure to create id's for each division so i can keep them in order-->
+      <div id="personalParagraph">
+        <h3>About Me!</h3>
+        <p>
+          Hello! My name is Mikayle Collins, I am a senior at Oakland University
+          majoring in Computer Science. I currently work at Stellantis as a
+          controls engineer. I have gained a lot of knowledge and experience with
+          the interworking of a multi-gear transmission, torque paths, MATLAB, and
+          strategic operations involving battery charge and torque. While working
+          at Stellantis, I have utilized an Agile Scrum approach to work through
+          IBM's program ALM. In addition, I am a part of the PReP program at
+          Oakland University. This program is through Stellantis and OU.
+          Stellantis professionals come weekly to teach us the powertrain of the
+          vehicles. That being said, I have a mechanical background in addition to
+          my current major. Before working at Stellantis, I had an internship at a
+          top tier supplier, Borgwarner. At Borgwarner, I worked in IT mobility
+          handling over 2000+ users in North America. Now that you know more about
+          my professional background, to see my resume and fun facts about me
+          check out the <a href="html/my_resume.html">Resume</a> and
+          <a href="html/my_fun_facts.html">Fun Facts</a> pages!
+        </p>
+      </div>
+
+      <br />
+
+      <!-- Used the progress tag to create a displayed progress bar-->
+      <div id="progressBar">
+        <h3>Progress to Degree</h3>
+        <progress value="104" max="128">81%</progress>
+      </div>
+
+      <hr />
+
+      <!--Added the mailto so it can directly link my email-->
+      <div id="copyrightInfo">
+        <h3>Contact Information</h3>
+        <p><a href="mailto:mikaylecollins@oakland.edu">Email</a></p>
+        <p>
+          <a href="https://www.linkedin.com/in/mikayle-collins-29ba78217/"
+            >LinkedIn</a
+          >
+        </p>
+      </div>
+
     </div>
-    <br />
-    <!--I made sure to create id's for each division so i can keep them in order-->
-    <div id="personalParagraph">
-      <h3>About Me!</h3>
-      <p>
-        Hello! My name is Mikayle Collins, I am a senior at Oakland University
-        majoring in Computer Science. I currently work at Stellantis as a
-        controls engineer. I have gained a lot of knowledge and experience with
-        the interworking of a multi-gear transmission, torque paths, MATLAB, and
-        strategic operations involving battery charge and torque. While working
-        at Stellantis, I have utilized an Agile Scrum approach to work through
-        IBM's program ALM. In addition, I am a part of the PReP program at
-        Oakland University. This program is through Stellantis and OU.
-        Stellantis professionals come weekly to teach us the powertrain of the
-        vehicles. That being said, I have a mechanical background in addition to
-        my current major. Before working at Stellantis, I had an internship at a
-        top tier supplier, Borgwarner. At Borgwarner, I worked in IT mobility
-        handling over 2000+ users in North America. Now that you know more about
-        my professional background, to see my resume and fun facts about me
-        check out the <a href="html/my_resume.html">Resume</a> and
-        <a href="html/my_fun_facts.html">Fun Facts</a> pages!
-      </p>
-    </div>
-    <br />
-    <!-- Used the progress tag to create a displayed progress bar-->
-    <div id="progressBar">
-      <h3>Progress to Degree</h3>
-      <progress value="104" max="128">81%</progress>
-    </div>
-    <hr />
-    <!--Added the mailto so it can directly link my email-->
-    <div id="copyrightInfo">
-      <h3>Contact Information</h3>
-      <p><a href="mailto:mikaylecollins@oakland.edu">Email</a></p>
-      <p>
-        <a href="https://www.linkedin.com/in/mikayle-collins-29ba78217/"
-          >LinkedIn</a
-        >
-      </p>
-    </div>
+
   </body>
 </html>
