@@ -62,7 +62,7 @@ li {
 }
 
 .dropdown {
-  background-color: #1f4c74;
+  background-color: #355c7d;
   padding: 1 em 0;
   position: absolute;
   display: none;
@@ -97,4 +97,4 @@ input[type="checkbox"] {
   user-select: none;
 }
 
-/*stopped at 1:32*/
+/*Responsive Design */
